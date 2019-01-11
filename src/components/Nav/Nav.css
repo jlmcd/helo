@@ -1,0 +1,35 @@
+.side-nav {
+    background-image: linear-gradient(0deg,#ff7abe,#ff9770);
+    width: 100px;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: #fff;
+}
+
+#profile-pic {
+    overflow: hidden;
+    height: 75px;
+    width: 75px;
+    background-color: #fff;
+    box-shadow: rgba(0,0,0,0.25) 5px 5px 5px;
+    border-radius: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#profile-pic > img {
+    height: 100%;
+    width: auto;
+}
+
+.side-nav a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+}

@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+.background {
+    background-image: linear-gradient(99deg,#ff70a6,#ff9770 40%,#ffd670 73%,#e9ff70);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.auth-card {
+    padding: 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    background-image: linear-gradient(97deg,#ff7a6e,#ffd670);
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: rgba(0,0,0,0.25) 0px 14px 28px;
+    color: #fff;
+}
+.auth-card > h1 {
+    color: #fff;
+    font-size: 80px;
+    font-weight: 700;
+    margin: 10px 0px;
+}
+.auth-card input {
+    margin: 20px;
+}
